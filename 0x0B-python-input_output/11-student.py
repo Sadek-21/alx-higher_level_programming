@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Defines a class Student."""
 
 
@@ -36,4 +35,3 @@ class Student:
         """
         for k, v in json.items():
             setattr(self, k, v)
-
