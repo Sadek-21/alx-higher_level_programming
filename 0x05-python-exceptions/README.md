@@ -1,27 +1,63 @@
-# Solution to tasks on 0x05. Python - Exceptions
+# Python - Exceptions
 
-## Task 0:  Safe list printing
-Write a function that prints x elements of a list.
+This repository contains solutions to Python tasks related to handling errors and exceptions.
 
-- Prototype: def safe_print_list(my_list=[], x=0):
-- my_list can contain any type (integer, string, etc.)
-- All elements must be printed on the same line followed by a new line.
-- x represents the number of elements to print
-- x can be bigger than the length of my_list
-- Returns the real number of elements printed
-- You have to use try: / except:
-- You are not allowed to import any module
-- You are not allowed to use len()
+## General Information
 
-## Task 1. Safe printing of an integers list
-Write a function that prints an integer with "{:d}".format().
+Python programming language offers robust mechanisms for handling errors and exceptions, making it a powerful tool for developing reliable software. This project focuses on understanding and implementing error handling techniques in Python.
 
-- Prototype: def safe_print_integer(value):
-- value can be any type (integer, string, etc.)
-- The integer should be printed followed by a new line
-- Returns True if value has been correctly printed (it means the value is an integer)
-- Otherwise, returns False
-- You have to use try: / except:
-- You have to use "{:d}".format() to print as integer
-- You are not allowed to import any module
-- You are not allowed to use type()
+### Learning Objectives
+
+Upon completion of this project, you will gain a deep understanding of the following concepts:
+
+- Why Python programming is awesome
+- The difference between errors and exceptions
+- How to use exceptions effectively
+- When and how to handle exceptions
+- The purpose of catching exceptions
+- How to raise built-in exceptions
+- Implementing clean-up actions after exceptions
+
+## Requirements
+
+- All code is written and tested in Python 3.8.5 on Ubuntu 20.04 LTS.
+- Code should adhere to PEP8 style guidelines.
+- All files should end with a newline.
+- The first line of each file should be `#!/usr/bin/python3`.
+- A README.md file at the root of each project folder is mandatory.
+
+## Task Descriptions
+
+### 0. Safe list printing
+
+- Write a function `safe_print_list` that prints elements of a list safely.
+- Use `try` and `except` blocks to handle exceptions.
+- Do not use `import` statements or `len()` function.
+
+...
+
+### 10. CPython #2: PyFloatObject
+
+- Implement C functions to print basic information about Python lists, bytes, and float objects.
+- Handle errors and exceptions according to the specified requirements.
+
+## Repository Structure
+
+- `0x05-python-exceptions/`
+  - `README.md`: This file providing an overview of the project and task descriptions.
+  - `0-safe_print_list.py`: Solution to Task 0.
+  - `1-safe_print_integer.py`: Solution to Task 1.
+  - `2-safe_print_list_integers.py`: Solution to Task 2.
+  - `3-safe_print_division.py`: Solution to Task 3.
+  - `4-list_division.py`: Solution to Task 4.
+  - `5-raise_exception.py`: Solution to Task 5.
+  - `6-raise_exception_msg.py`: Solution to Task 6.
+  - `7-safe_print_integer_err.py`: Solution to Task 7.
+  - `8-safe_function.py`: Solution to Task 8.
+  - `102-magic_calculation.py`: Solution to Task 9.
+  - `103-python.c`: Solution to Task 10 (C functions).
+
+## Author
+
+This project is authored by SADE MOHAMED.
+

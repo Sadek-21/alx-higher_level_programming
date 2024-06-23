@@ -1,1 +1,1 @@
-# Solution to tasks on Python - Inheritance
+0x0A-python-inheritance
